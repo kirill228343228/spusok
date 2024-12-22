@@ -9,7 +9,7 @@ while True:
         a = int(input("Введіть номер фрукта (1-5): "))
 
         if a < 1 or a > len(fruits):
-            print("Будь ласка, введіть номер між 1 і 5", len(fruits))
+            print("Будь ласка, введіть номер між 1 і 5")
         else:
             print(f"Ви обрали: {fruits[a - 1]}")
             break
